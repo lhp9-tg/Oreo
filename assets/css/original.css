@@ -8,29 +8,27 @@ html,body {
 header {
     font-family: 'Permanent Marker', cursive;
     height: 15%;
-    background-image: url("../img/header.png");
-    background-size: 10%;
+    background-image: url("../img/original-hd.png");
+    background-size: 33%;
     background-repeat: no-repeat;
     background-position: 20%;
     border-bottom: solid 1px rgba(128, 128, 128, 0.365);
 }
 
 header p {
-    margin-left: 30%;
+    margin-left: 45%;
     margin-right: auto;
     width: 70%;
-    padding-top: 2.5%;
     font-size: 2rem;
-
 }
 
 main {
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    background-image: url(../img/background.jpg);
-    background-size: 40%;
+    background-image: url(../img/original-bg.png);
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: left 110% top 30%;
+    background-position: left 100% top 200%;
 }
 
 fieldset {
@@ -53,7 +51,7 @@ fieldset {
 }
 
 .data div:hover {
-    border: solid 2px gold;
+    border: solid 2px #1B448A;
 }
 
 .data label {
@@ -82,7 +80,7 @@ fieldset {
 }
 
 .survey div:hover {
-    border-color: gold;
+    border-color: #1B448A;
     border-width: 2px;
 }
 
@@ -105,7 +103,7 @@ input.button {
 }
 
 .button:hover {
-    border:solid 1px gold;
+    border:solid 1px #1B448A;
     background-color: white;
     font-weight: bold;
 }
